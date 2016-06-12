@@ -19,8 +19,8 @@ public class Tergai extends ApplicationAdapter {
 	public void create() {
 		batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
-		FileSaver.saveData(new SaveData(EnumDataType.STRING, "POOP", "", "testSave.tsave", "first1"));
-		FileSaver.saveData(new SaveData(EnumDataType.STRING, "POOPPPPPPYYYY@@@@", "", "testSave.tsave", "first2"));
+		FileSaver.saveData(new SaveData(EnumDataType.STRING, "Test1", "", "testSave.tsave", "first1"));
+		FileSaver.saveData(new SaveData(EnumDataType.STRING, "test2@@@@", "", "testSave.tsave", "first2"));
 	}
 
 	@Override
