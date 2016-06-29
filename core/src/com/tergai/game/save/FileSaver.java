@@ -14,16 +14,16 @@ public class FileSaver {
 		
 		File file = new File(data.Path+data.Filename);
 		
-		BufferedWriter Fwriter;
-		try {
-			Fwriter = new BufferedWriter(new FileWriter(file, true));
-			if (!file.exists()) {
-				Fwriter.write("");
-			}
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		BufferedWriter Fwriter;
+//		try {
+//			Fwriter = new BufferedWriter(new FileWriter(file, true));
+//			if (!file.exists()) {
+//				Fwriter.write("");
+//			}
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		
 		int nameLength = 0;
 		
@@ -82,4 +82,4 @@ public class FileSaver {
 		
 	}
 
-}
+}li
